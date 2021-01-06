@@ -1,0 +1,123 @@
+body {
+  background-color: #ba251c !important;
+  padding: 3% 10% 0 10%;
+}
+
+.row .col-12 h1 {
+  color: #fff;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.473);
+  margin: 25px 0;
+}
+
+.row:nth-child(3) p {
+  color: #fff;
+  font-size: 14px;
+}
+
+.img-tv {
+  margin-top: 30px;
+}
+
+.btn-regulamento {
+  margin: 40px 0 70px 0;
+  padding: 10px 20px !important;
+  color: #fff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e3341f), to(#cd1f0a));
+  background-image: linear-gradient(#e3341f, #cd1f0a);
+  -webkit-box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.699);
+          box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.699);
+}
+
+.btn-regulamento img {
+  width: 22px;
+}
+
+.btn-regulamento span {
+  margin-left: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.regulamento {
+  padding: 30px 26px 10px 26px;
+  background-color: #a30e04 !important;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.regulamento h5 {
+  font-weight: 400;
+}
+
+.regulamento h6 {
+  font-size: 17px;
+}
+
+.regulamento P {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.fale-conosco {
+  padding: 0 50px !important;
+}
+
+.fale-conosco h5 {
+  color: #fff;
+  font-weight: 400;
+}
+
+.fale-conosco input {
+  -webkit-box-shadow: 0 0 13px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 13px rgba(0, 0, 0, 0.5);
+}
+
+.fale-conosco select {
+  -webkit-box-shadow: 0 0 13px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 13px rgba(0, 0, 0, 0.5);
+}
+
+.fale-conosco textarea {
+  -webkit-box-shadow: 0 0 13px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 13px rgba(0, 0, 0, 0.5);
+}
+
+.fale-conosco .btn-enviar {
+  margin: 10px 0 20px 0;
+  padding: 8px 30px !important;
+  color: #fff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e3341f), to(#cd1f0a));
+  background-image: linear-gradient(#e3341f, #cd1f0a);
+  -webkit-box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.699);
+          box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.699);
+}
+
+@media (max-width: 767px) {
+  body {
+    padding: 20px 10px 0 10px;
+  }
+  .img-logo {
+    width: 80%;
+  }
+  .img-carro {
+    width: 95%;
+  }
+  .fale-conosco {
+    padding: 0 12px !important;
+  }
+  form {
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .img-tv {
+    float: right;
+  }
+  .img-carro {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
